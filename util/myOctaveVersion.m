@@ -4,4 +4,4 @@ function result = myOctaveVersion()
     result = OCTAVE_VERSION;
   else
     result = 'undefined';
-end
+  end
