@@ -1,4 +1,6 @@
 function test_example_CNN
+  addpath(genpath('..\'));
+  
   load mnist_uint8;
   
   train_x = double(reshape(train_x',28,28,60000))/255;
